@@ -1,0 +1,84 @@
+1. Tananyag- és kvízmegosztó platform
+
+- Ötlet lényege: Egy közösségi tudásbázis, ahol a felhasználók rövid tananyagokat vagy feladatokat tölthetnek fel, és kvízeket hozhatnak létre másoknak. Ez interaktív és hasznos diákoknak, és könnyen prezentálható. Továbbá itt rengeteg témakör között lehet választani.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Tananyag feltöltés (szöveg, kép, akár beágyazott videó link).
+	- Kvízkészítő modul (kérdés + válaszlehetőségek).
+	- Felhasználói profil pontszámmal: a helyes kitöltésekért pont jár → ranglista.
+	- Keresés tantárgy, téma alapján.
+	- (Extra) API: például Wikipedia API-val automatikusan hozhatsz rövid kiegészítő infókat az adott témához.
+
+
+2. Közösségi eseménynaptár / programajánló
+
+- Ötlet lényege: Egy online naptár, ahol a felhasználók eseményeket hozhatnak létre (pl. sport, kulturális, közösségi programok), mások pedig jelezhetik, hogy részt vesznek. Ez egy praktikus, közösségi és vizuálisan is látványos projekt.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Esemény létrehozása (név, dátum, helyszín, rövid leírás).
+	- Google Maps API integráció a helyszínekhez.
+	- Események böngészése naptár vagy lista nézetben.
+	- „Részt veszek / Érdekel” gomb.
+	- Felhasználói profil múltbeli és jövőbeli eseményekkel.
+	- (Extra) értesítések közelgő eseményekről.
+
+
+3. Ötletmegosztó / innovációs hub
+
+- Ötlet lényege: Egy közösségi oldal, ahol a felhasználók megoszthatják ötleteiket (pl. startup, találmány, tanulási módszer, bármi), mások pedig hozzászólhatnak, szavazhatnak rájuk. Ez kicsit olyan, mint egy mini közösségi fórum, de sokkal célzottabb és egyszerűbben átlátható.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Új ötlet feltöltése (cím, leírás, kategória, kép).
+	- Szavazás és kommentelés.
+	- Toplisták: heti/havi legnépszerűbb ötletek.
+	- Keresés kategóriák alapján (pl. technológia, oktatás, környezetvédelem).
+	- (Extra) API: pl. ChatGPT API integráció ötlet-generáláshoz → "Adj új ötletet ebben a témában".
+
+
+4. Önkéntesség és segítségnyújtás platform
+
+- Ötlet lényege: Egy online közösségi tér, ahol bárki meghirdethet önkéntes munkát vagy segítségkérést (pl. kutyasétáltatás, véradás, környezetvédelmi akciók). Ez közösségi értékű és nagyon jól bemutatható.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- „Segítségkérés” és „Segítségnyújtás” poszt létrehozása.
+	- Kategóriák: környezet, állatvédelem, idősek segítése stb.
+	- Térképes megjelenítés (Google Maps API integráció).
+	- Jelentkezés egy feladatra, státuszok kezelése.
+	- Értékelés: a segítők kaphatnak visszajelzést.
+	
+
+5. Digitális művészeti galéria
+
+- Ötlet lényege: Egy online felület, ahol a felhasználók feltölthetik saját rajzaikat, fotóikat, design munkáikat, és kiállíthatják őket egy közösségi galériában. Ez vizuálisan nagyon látványos projekt lehet, és kreatív megoldásokat enged.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Kép feltöltése kategóriákkal (fotó, festmény, 3D design).
+	- Like-olás, kommentelés.
+	- Profiloldal a saját galériával.
+	- Toplista / kiemelt alkotások.
+	- (Extra) API: pl. Unsplash API → inspirációs képek letöltése.
+
+
+6. DIY / Tudásmegosztó projektek
+
+- Ötlet lényege: Egy oldal, ahol felhasználók saját „csináld magad” (DIY) vagy tanulási projekteket tölthetnek fel lépésről lépésre, mások pedig követhetik, kipróbálhatják. Ez lehet egy praktikus tudásbázis, ami egyszerre tanító és közösségépítő.
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Új projekt feltöltése (lépések, képek, eszközlista).
+	- Kategóriák: technológia, barkács, kézműves, elektronika.
+	- Kommentelés, értékelés.
+	- „Elmentem” funkció: a felhasználó saját listába teheti, mit szeretne kipróbálni.
+	- (Extra) API: YouTube videóbeágyazás a projektekhez.
+
+
+7. Sport- és edzéstervező közösségi oldal
+
+- Ötlet lényege: Egy platform, ahol a felhasználók feltölthetik saját edzésterveiket, megoszthatják a fejlődésüket, és mások ötleteiből inspirálódhatnak. Ez egyszerre közösségi, hasznos és motiváló, és nagyon jól illik a vizsgaremek tematikájába, mert látványos (grafikonok, listák, profilok).
+- Funkciók:
+	- Regisztráció, bejelentkezés.
+	- Edzéstervek létrehozása (pl. heti bontásban: hétfő – mellkas, kedd – futás stb.).
+	- Gyakorlatok leírása képekkel vagy YouTube videó beágyazással.
+	- Saját fejlődés követése (pl. testsúly, ismétlésszámok → grafikon).
+	- Kommentelés, értékelés mások edzésterveinél.
+	- Kedvencekhez adás: „Mentett edzésterveim”.
+	- (Extra) API: pl. Nutritionix API → automatikusan kiszámolja a gyakorlatokhoz tartozó kalóriaégetést.
