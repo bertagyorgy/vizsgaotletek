@@ -1,0 +1,21 @@
+1. a)SELECT COUNT(*) FROM user
+   b)SELECT * FROM login GROUP BY lbe ASC LIMIT 1
+   c)SELECT * FROM login GROUP BY lbe DESC LIMIT 1
+
+2. SELECT (COUNT(*)/500)*100 FROM user WHERE uirszam LIKE "1%"
+
+3. SELECT COUNT(*) FROM user WHERE umail LIKE "%postaladika.hu" AND ustatusz = "A"
+
+4. SELECT COUNT(DISTINCT SUBSTRING_INDEX(umail, '@', -1)) AS "Domainek" FROM user WHERE ustatusz = "A"
+
+5. SELECT DATE(lbe) AS logindates FROM login GROUP by logindates HAVING COUNT(*) >= 3 
+
+6. SELECT GROUP_CONCAT(unev ORDER BY unev SEPARATOR ' - ') AS users, upw AS pasword FROM user GROUP BY upw HAVING COUNT(*) > 1
+
+7. SELECT U.uid, U.unev FROM `user` U LEFT JOIN `login` L ON U.uid = L.luid WHERE L.lid IS NULL
+
+8. SELECT ROUND((COUNT(DISTINCT u.uid) / 500)*100, 2) AS "Belépett felhasználók százalékban" FROM `user` U JOIN `login` L ON U.uid = L.luid WHERE L.lbe > U.udatum
+
+9. SELECT U.unev, MAX(L.lbe) AS last_login FROM `user` U JOIN `login` L ON U.uid = L.luid GROUP BY U.unev ORDER BY last_login  DESC LIMIT 12
+
+10. SELECT U.unev, U.udatum FROM `user` U WHERE U.ustatusz = 'A' AND NOT EXISTS (SELECT * FROM `login` L WHERE L.luid = U.uid AND L.lbe >= DATE_SUB('2025-09-10', INTERVAL 1 YEAR))
